@@ -12,6 +12,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+img {
+    width: 100%;
+    display: block;
+}
+
 .container {
     width: 75%;
     margin: 0 auto;
@@ -20,4 +25,17 @@ body {
 .small-container {
     width: 65%;
     margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
 }
