@@ -2,7 +2,7 @@
     <div class="jumbotron-bg">
        <div class="container">
             <!-- Image Logo -->
-            <img src="../assets/img/dc-logo-bg.png" alt="Footer Jumbo Logo">
+            <!-- <img src="../assets/img/dc-logo-bg.png" alt="Footer Jumbo Logo"> -->
 
             <!-- Content List -->
             <div class="content-list flex">
@@ -194,15 +194,18 @@ export default {
 
     .container {
         height: 100%;
+        background-image: url('../assets/img/dc-logo-bg.png');
+        background-repeat: no-repeat;
+        background-position: right;
     }
 
-    img {
-        width: 400px;
-        position: absolute;
-        bottom: -53px;
-        right: 150px;
+    // img {
+    //     width: 500px;
+    //     position: absolute;
+    //     bottom: -60px;
+    //     right: 150px;
        
-    }
+    // }
 }
 
 .footer-list {
