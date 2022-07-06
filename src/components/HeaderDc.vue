@@ -83,7 +83,7 @@ export default {
 @import '../common/variables';
 
 .header {
-    height: 80px;
+    height: 100px;
 
     img {
         width: 60px;
@@ -94,6 +94,7 @@ export default {
     .container {
         justify-content: space-between;
         align-items: center;
+        height: 100%;
     }
 }
 
@@ -102,14 +103,19 @@ ul {
 
     li {
         padding:0 10px;
-        
-        &.current:after {
+    }
+
+    .current {
+    color: $mainColor;
+    }
+
+    .current::after {
         content: "";
         border-bottom: 4px solid $mainColor;
-        color: blue;
         margin: 0 auto;
         display: block;
-        }
     }
 }
+
+
 </style>

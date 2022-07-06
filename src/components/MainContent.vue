@@ -18,11 +18,11 @@ export default {
 .main-content {
     background-color: $secondColor;
     color: $mainFontColor;
-    height: 80px;
+    height: 120px;
 
     span {
         font-size: 20px;
-        line-height: 80px;
+        line-height: 120px;
     }
 }
 </style>

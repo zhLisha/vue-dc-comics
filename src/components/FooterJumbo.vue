@@ -198,14 +198,6 @@ export default {
         background-repeat: no-repeat;
         background-position: right;
     }
-
-    // img {
-    //     width: 500px;
-    //     position: absolute;
-    //     bottom: -60px;
-    //     right: 150px;
-       
-    // }
 }
 
 .footer-list {

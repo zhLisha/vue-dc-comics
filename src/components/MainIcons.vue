@@ -56,7 +56,7 @@ export default {
 @import '../common/variables';
 
 .main-icons {
-    height: 100px;
+    height: 150px;
     background-color: $mainColor;
     color: $mainFontColor;
 
