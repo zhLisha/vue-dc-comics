@@ -11,6 +11,9 @@
           <MainContent />
         </section>
 
+        <!-- Main Icons Action -->
+        <MainIcons />
+
       </main>
 
     </div>
@@ -19,12 +22,14 @@
 <script>
 import HeaderDc from './components/HeaderDc.vue'
 import MainContent from './components/MainContent.vue'
+import MainIcons from './components/MainIcons.vue'
 
 export default {
   name: "App", 
   components: {
     HeaderDc,
-    MainContent
+    MainContent,
+    MainIcons
   }
 }
 </script>
