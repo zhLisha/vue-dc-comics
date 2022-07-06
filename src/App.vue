@@ -21,6 +21,11 @@
           <FooterJumbo />
         </div>
 
+        <!-- Social -->
+        <div>
+          <FooterSocial />
+        </div>
+
       </footer>
 
     </div>
@@ -31,6 +36,7 @@ import HeaderDc from './components/HeaderDc.vue'
 import MainContent from './components/MainContent.vue'
 import MainIcons from './components/MainIcons.vue'
 import FooterJumbo from './components/FooterJumbo.vue'
+import FooterSocial from './components/FooterSocial.vue'
 
 export default {
   name: "App", 
@@ -38,7 +44,8 @@ export default {
     HeaderDc,
     MainContent,
     MainIcons,
-    FooterJumbo
+    FooterJumbo,
+    FooterSocial
   }
 }
 </script>
