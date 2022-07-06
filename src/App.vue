@@ -13,8 +13,15 @@
 
         <!-- Main Icons Action -->
         <MainIcons />
-
       </main>
+
+      <footer>
+        <!-- Footer Jumbotron -->
+        <div>
+          <FooterJumbo />
+        </div>
+
+      </footer>
 
     </div>
 </template>
@@ -23,13 +30,15 @@
 import HeaderDc from './components/HeaderDc.vue'
 import MainContent from './components/MainContent.vue'
 import MainIcons from './components/MainIcons.vue'
+import FooterJumbo from './components/FooterJumbo.vue'
 
 export default {
   name: "App", 
   components: {
     HeaderDc,
     MainContent,
-    MainIcons
+    MainIcons,
+    FooterJumbo
   }
 }
 </script>
