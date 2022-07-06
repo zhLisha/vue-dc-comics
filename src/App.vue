@@ -5,17 +5,26 @@
         <HeaderDc />
       </header>
 
+      <main>
+        <!-- Main Content -->
+        <section>
+          <MainContent />
+        </section>
+
+      </main>
+
     </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
 import HeaderDc from './components/HeaderDc.vue'
+import MainContent from './components/MainContent.vue'
 
 export default {
   name: "App", 
   components: {
-    HeaderDc
+    HeaderDc,
+    MainContent
   }
 }
 </script>
