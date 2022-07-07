@@ -1,9 +1,13 @@
 <template>
         <li class="card"> 
-            <img :src="cardDetails.thumb" :alt="cardDetails.type">
-            <div class="thumb-title">
-                <span>{{cardDetails.series}}</span>
-            </div>
+           <a href="#">
+                <div class="image">
+                    <img :src="cardDetails.thumb" :alt="cardDetails.type">
+                </div>
+                <div class="thumb-title">
+                    <span>{{cardDetails.series}}</span>
+                </div>
+           </a>
         </li>
 </template>
 
@@ -19,18 +23,25 @@ export default {
 
 <style lang="scss" scoped>
 .card {
-    margin:20px 10px;
-    width: calc((100% / 5) - 20px);
+    margin:20px 0;
+    width: calc((100% / 6) - 20px);
 
-    // img {
-    //     // height: 150px;
-    //     object-fit: cover;
-    //     overflow: hidden;
-    //     object-position: top;
-    // }
+    .image {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        overflow: hidden;
+        object-position: top;
+        margin-bottom: 15px;
+    }
 
     .thumb-title {
-        font-size: 12px;
+        font-size: 11.5px;
+
+        span {
+            text-transform: uppercase;
+            font-weight: 300;
+        }
     }
 }
 </style>

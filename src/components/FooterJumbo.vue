@@ -186,6 +186,8 @@ export default {
 .jumbotron-bg {
     height: 350px;
     background-image: url('../assets/img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     color: white;
 

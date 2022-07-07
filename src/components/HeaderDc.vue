@@ -102,7 +102,7 @@ ul {
     font-size: 11px;
 
     li {
-        padding:0 10px;
+        padding-left: 20px;
     }
 
     .current {
