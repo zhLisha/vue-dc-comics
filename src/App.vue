@@ -5,6 +5,9 @@
         <HeaderDc />
       </header>
 
+      <!-- Jumbotron -->
+      <TopJumbotron />
+
       <main>
         <!-- Main Content -->
         <section>
@@ -37,6 +40,7 @@ import MainContent from './components/MainContent.vue'
 import MainIcons from './components/MainIcons.vue'
 import FooterJumbo from './components/FooterJumbo.vue'
 import FooterSocial from './components/FooterSocial.vue'
+import TopJumbotron from './components/TopJumbotron.vue'
 
 export default {
   name: "App", 
@@ -45,7 +49,8 @@ export default {
     MainContent,
     MainIcons,
     FooterJumbo,
-    FooterSocial
+    FooterSocial,
+    TopJumbotron
   }
 }
 </script>

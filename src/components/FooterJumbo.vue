@@ -1,9 +1,6 @@
 <template>
     <div class="jumbotron-bg">
        <div class="container">
-            <!-- Image Logo -->
-            <!-- <img src="../assets/img/dc-logo-bg.png" alt="Footer Jumbo Logo"> -->
-
             <!-- Content List -->
             <div class="content-list flex">
 
