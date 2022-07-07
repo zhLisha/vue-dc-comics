@@ -11,7 +11,7 @@
       <main>
         <!-- Main Content -->
         <section>
-          <MainContent />
+          <SeriesList />
         </section>
 
         <!-- Main Icons Action -->
@@ -36,7 +36,7 @@
 
 <script>
 import HeaderDc from './components/HeaderDc.vue'
-import MainContent from './components/MainContent.vue'
+import SeriesList from './components/SeriesList.vue'
 import MainIcons from './components/MainIcons.vue'
 import FooterJumbo from './components/FooterJumbo.vue'
 import FooterSocial from './components/FooterSocial.vue'
@@ -46,7 +46,7 @@ export default {
   name: "App", 
   components: {
     HeaderDc,
-    MainContent,
+    SeriesList,
     MainIcons,
     FooterJumbo,
     FooterSocial,

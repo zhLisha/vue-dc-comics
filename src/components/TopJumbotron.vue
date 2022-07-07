@@ -1,6 +1,6 @@
 <template>
     <div class="top-jumbotron">
-
+        
     </div>
 </template>
 
