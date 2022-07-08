@@ -27,12 +27,11 @@ export default {
     width: calc((100% / 6) - 20px);
 
     .image {
-        width: 150px;
-        height: 150px;
         object-fit: cover;
         overflow: hidden;
-        object-position: top;
+      object-position: top;
         margin-bottom: 15px;
+        aspect-ratio: 1/1;
     }
 
     .thumb-title {
